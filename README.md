@@ -4,6 +4,14 @@
 
 ![Architecture Diagram](./docs/images/architecture.jpg)
 
+#### Setup AWS Cli Profile for this project
+
+Please create a AWSCli Named Profile `udacity`
+
+```sh
+aws configure --profile udacity
+```
+
 #### Deployment
 
 1. Save Parameters into SSM
